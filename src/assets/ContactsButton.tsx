@@ -14,6 +14,7 @@ import TelegramIcon from '@/icons/TelegramIcon'
 import VKIcon from '@/icons/VKIcon'
 import MapIcon from '@/icons/MapIcon'
 import PointIcon from '@/icons/PointIcon'
+import { toast } from 'sonner'
 
 interface Props {
   children: ReactElement
@@ -35,6 +36,10 @@ const ContactsButton: FC<Props> = ({ children }) => {
             <Button
               variant='link'
               className='dark flex gap-2 tracking-wider sm:text-md text-sm'
+              onClick={async () => {
+                await navigator.clipboard.writeText('m-milutin@mail.ru')
+                toast('Скопировано в буфер обмена')
+              }}
             >
               <EnvelopeClosedIcon className='sm:w-5 w-4 h-4 sm:h-5' />
               m-milutin@mail.ru
@@ -42,6 +47,10 @@ const ContactsButton: FC<Props> = ({ children }) => {
             <Button
               variant='link'
               className='dark flex gap-2 tracking-wider sm:text-md text-sm'
+              onClick={async () => {
+                await navigator.clipboard.writeText('m-millutin@hotmail.com')
+                toast('Скопировано в буфер обмена')
+              }}
             >
               <EnvelopeClosedIcon className='sm:w-5 w-4 h-4 sm:h-5' />
               m-millutin@hotmail.com
@@ -59,6 +68,10 @@ const ContactsButton: FC<Props> = ({ children }) => {
             <Button
               variant='link'
               className='dark flex gap-2 tracking-wider sm:text-md text-sm'
+              onClick={async () => {
+                await navigator.clipboard.writeText('+7 925 985 98-40')
+                toast('Скопировано в буфер обмена')
+              }}
             >
               <PhoneOutlined />
               +7 925 985 98-40
@@ -86,7 +99,11 @@ const ContactsButton: FC<Props> = ({ children }) => {
             </a>
           </div>
           <Separator className='dark ssm:hidden' />
-          <div className='flex flex-col gap-5 items-start tracking-wider sm:text-md text-sm'>
+          <a
+            href='https://yandex.ru/maps/213/moscow/house/ulitsa_ordzhonikidze_11s3/Z04Ycw5mSEAAQFtvfXtxd3tgZQ==/?indoorLevel=1&ll=37.596157%2C55.706731&z=17.11'
+            target='_blanc'
+            className='flex flex-col gap-5 items-start tracking-wider sm:text-md text-sm'
+          >
             <Button
               variant='link'
               className='dark flex gap-2 tracking-wider sm:text-md text-sm'
@@ -102,7 +119,7 @@ const ContactsButton: FC<Props> = ({ children }) => {
               <PointIcon />
               ул. Орджоникидзе, д.11 стр.3
             </Button>
-          </div>
+          </a>
         </div>
       </SheetContent>
     </Sheet>

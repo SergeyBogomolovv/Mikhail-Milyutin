@@ -2,7 +2,7 @@ import { ICard } from '@/models/Card'
 import CollectionCard from '@/components/CollectionCard'
 import HomeButton from '@/components/HomeButton'
 import { Separator } from '@/components/ui/separator'
-
+import { Image } from 'antd'
 interface Props {
   title: string
   content?: string
@@ -25,9 +25,11 @@ export default function CollectionPage({ cards, title, content }: Props) {
         </>
       )}
       <div className='grid md:grid-cols-3 sm:grid-cols-2 gap-8 my-10'>
-        {cards.map((card) => (
-          <CollectionCard key={card.src} card={card} />
-        ))}
+        <Image.PreviewGroup>
+          {cards.map((card) => (
+            <CollectionCard key={card.src} card={card} />
+          ))}
+        </Image.PreviewGroup>
       </div>
 
       <HomeButton />

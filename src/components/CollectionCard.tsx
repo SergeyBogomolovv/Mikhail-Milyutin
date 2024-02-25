@@ -7,7 +7,12 @@ interface Props {
 export default function CollectionCard({ card }: Props) {
   return (
     <div className='flex flex-col gap-5 items-center'>
-      <Image src={card.src} alt='' className='rounded-lg' />
+      <Image
+        fallback='./fallback.png'
+        src={card.src}
+        alt=''
+        className='rounded-lg'
+      />
       {card.title && (
         <>
           <Separator className='dark' />

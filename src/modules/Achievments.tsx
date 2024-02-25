@@ -14,37 +14,43 @@ export default function Achievments() {
       </h1>
       <Separator className='my-5 dark' />
       <div className='lg:flex grid md:grid-cols-3  sm:grid-cols-2 gap-12 items-center justify-center justify-items-center leading-6 tracking-wider'>
-        <div className='grid gap-4 text-center'>
-          <Image src='./achievments/1.jpeg' alt='' />
-          <Separator />
-          <div className='xl:text-lg text-sm'>
-            В 2022 году стал призером выставки «Гохран России», в номинации
-            «Использование нетрадиционных материалов в авторских работах»
+        <Image.PreviewGroup>
+          <div className='grid gap-4 text-center'>
+            <Image
+              fallback='./fallback.png'
+              src='./achievments/1.jpeg'
+              alt=''
+            />
+            <Separator />
+            <div className='xl:text-lg text-sm'>
+              В 2022 году стал призером выставки «Гохран России», в номинации
+              «Использование нетрадиционных материалов в авторских работах»
+            </div>
           </div>
-        </div>
-        <div className='grid gap-4 text-center'>
-          <Image src='./achievments/2.jpg' alt='' />
-          <Separator />
-          <div className='xl:text-lg text-sm'>
-            В 2021 году стал призером ювелирной выставки J – 1, в номинации
-            «Лучшее ювелирное искусство»
+          <div className='grid gap-4 text-center'>
+            <Image fallback='./fallback.png' src='./achievments/2.jpg' alt='' />
+            <Separator />
+            <div className='xl:text-lg text-sm'>
+              В 2021 году стал призером ювелирной выставки J – 1, в номинации
+              «Лучшее ювелирное искусство»
+            </div>
           </div>
-        </div>
-        <div className='grid gap-4 text-center'>
-          <Image src='./achievments/4.jpg' alt='' />
-          <Separator />
-          <div className='xl:text-lg text-sm'>
-            В 2019 году стал призером выставки «Гохран России», в номинации
-            «Ювелирные техники: традиции и мастерство»
+          <div className='grid gap-4 text-center'>
+            <Image fallback='./fallback.png' src='./achievments/4.jpg' alt='' />
+            <Separator />
+            <div className='xl:text-lg text-sm'>
+              В 2019 году стал призером выставки «Гохран России», в номинации
+              «Ювелирные техники: традиции и мастерство»
+            </div>
           </div>
-        </div>
-        <div className='grid gap-4 text-center'>
-          <Image src='./achievments/3.jpg' alt='' />
-          <Separator />
-          <div className='xl:text-lg text-sm'>
-            С 2020 года состоит в «Международной Академии творчества
+          <div className='grid gap-4 text-center'>
+            <Image fallback='./fallback.png' src='./achievments/3.jpg' alt='' />
+            <Separator />
+            <div className='xl:text-lg text-sm'>
+              С 2020 года состоит в «Международной Академии творчества
+            </div>
           </div>
-        </div>
+        </Image.PreviewGroup>
       </div>
       <Separator className='my-5 dark' />
     </div>
