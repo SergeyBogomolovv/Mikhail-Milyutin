@@ -1,30 +1,39 @@
-# React + TypeScript + Vite
+# Обновление контента
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Добавление новых коллекций
 
-Currently, two official plugins are available:
+Чтобы добавить коллекцию, нужно:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 1 - Перейти в папку collections
+- 2 - Найти файл index.ts
+- 3 - В массив коллекций добавить элемент со следующими аттрибутами:
+  - image - путь к картинке из папки src
+  - title - Заголовок на странице коллекции и название
+  - cards - Массив карточек этой коллекции
+  - content - не обязательно, описание коллекции, пример - жемчуг
 
-## Expanding the ESLint configuration
+## Добавление карточек коллекций
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Чтобы добавить коллекцию, нужно:
 
-- Configure the top-level `parserOptions` property like this:
+- 1 - Перейти в папку collections
+- 2 - Добавить новый файл ts
+- 3 - В массив карточек добавить элемент со следующими аттрибутами:
+  - src - путь к картинке из папки src
+  - title - необязательно, подпись к карточке
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Смена баннеров на слайдере
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Чтобы добавить коллекцию, нужно:
+
+- 1 - Перейти в папку modules
+- 2 - Найти файл CarouselMain.tsx
+- 3 - В компонент Carousel добавить элемент по типу:
+
+`<Link to='/Жемчуг'> //Указывается путь к коллекции, этот элемент не обязателен, путь должен совпадать с названием коллекции`
+`<AspectRatio ratio={16 / 9}>`
+`<img src='./banner1.png' alt='' /> указывается путь к картинке из папки public`
+`</AspectRatio>`
+`</Link>`
+
+### Картинки добавляются в папку public, путь начинает с ./путь к картинке
