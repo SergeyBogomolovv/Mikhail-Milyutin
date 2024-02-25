@@ -10,7 +10,7 @@ export default function Main() {
       <CarouselMain />
       <div className='container'>
         <Categories />
-        <Separator className='dark my-5 sm:my-10' />
+        <Separator className='dark hidden sm:block my-5 sm:my-10' />
         <About />
         <Achievments />
       </div>

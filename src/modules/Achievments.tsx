@@ -12,8 +12,8 @@ export default function Achievments() {
       <h1 className='ssm:text-4xl text-3xl text-center mb-5 mt-10 tracking-wide'>
         Достижения
       </h1>
-      <Separator className='my-5 dark' />
-      <div className='lg:flex grid md:grid-cols-3  sm:grid-cols-2 gap-12 items-center justify-center justify-items-center leading-6 tracking-wider'>
+      <Separator className='my-5 dark hidden sm:block' />
+      <div className='lg:flex grid md:grid-cols-3 sm:mt-0 mt-8 sm:grid-cols-2 gap-12 items-center justify-center justify-items-center leading-6 tracking-wider mb-10'>
         <Image.PreviewGroup>
           <div className='grid gap-4 text-center'>
             <Image
@@ -52,7 +52,6 @@ export default function Achievments() {
           </div>
         </Image.PreviewGroup>
       </div>
-      <Separator className='my-5 dark' />
     </div>
   )
 }

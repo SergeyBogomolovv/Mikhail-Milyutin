@@ -3,11 +3,13 @@ import Layout from './assets/Layout'
 import Main from './pages/Main'
 import CollectionPage from './pages/CollectionPage'
 import { collections } from './collections'
+import PrivacyPolicy from './pages/PrivacyPolicy'
 
 function App() {
   return (
     <Routes>
       <Route path='/' element={<Layout />}>
+        <Route path='политика-конфиденциальности' element={<PrivacyPolicy />} />
         <Route index element={<Main />} />
         {collections.map((collection) => (
           <Route

@@ -2,13 +2,13 @@ import { Separator } from '@/components/ui/separator'
 
 export default function About() {
   return (
-    <div>
+    <div className='sm:mt-0 mt-10'>
       <h1 className='sm:text-5xl ssm:text-4xl text-3xl text-center my-5 sm:my-10 tracking-wide'>
         Об авторе
       </h1>
       <div className='grid gap-10 md:grid-cols-[1fr_2fr] 940:grid-cols-[3fr_4fr] items-center justify-items-center'>
         <img src='./mikhail.jpg' alt='' className='rounded-lg' />
-        <div className='flex ssm:text-md text-sm md:text-sm items-center text-center flex-col gap-5 leading-6 tracking-wider'>
+        <div className='flex ssm:text-base text-sm md:text-base items-center text-center flex-col gap-5 leading-6 tracking-wider'>
           <p>
             Михаил Милютин – художник, создатель драгоценностей, один из ведущих
             ювелиров современной России. В студии Михаила Милютина создаются
