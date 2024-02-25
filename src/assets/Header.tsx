@@ -20,7 +20,7 @@ export default function Header() {
           <ContactsButton>
             <Button
               variant='ghost'
-              className='lg:text-lg md:text-md text-sm dark'
+              className='lg:text-lg md:text-md text-sm dark hidden ssm:flex'
             >
               <PersonIcon className='mr-2 lg:w-6 md:w-5 w-4 lg:h-6 md:h-5 h-4 ' />
               Контакты
