@@ -1,9 +1,6 @@
 import Header from './Header'
 import { Outlet } from 'react-router-dom'
 import Footer from './Footer'
-import ContactsButton from './ContactsButton'
-import { FloatButton } from 'antd'
-import { ContactsOutlined } from '@ant-design/icons'
 
 export default function Layout() {
   return (
@@ -12,12 +9,6 @@ export default function Layout() {
       <div className='flex-grow'>
         <Outlet />
       </div>
-      <ContactsButton>
-        <FloatButton
-          className='dark bg-white h-[50px] w-[50px] ssm:hidden'
-          icon={<ContactsOutlined />}
-        />
-      </ContactsButton>
       <Footer />
     </div>
   )

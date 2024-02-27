@@ -1,40 +1,11 @@
-import { Separator } from '@/components/ui/separator'
-
 export default function About() {
   return (
     <div className='sm:mt-0 mt-10'>
-      <h1 className='sm:text-5xl ssm:text-4xl text-3xl text-center my-5 sm:my-10 tracking-wide'>
+      <h1 className='sm:text-5xl ssm:text-4xl text-center text-3xl my-5 sm:my-10 tracking-wide'>
         Об авторе
       </h1>
-      <div className='grid gap-10 md:grid-cols-[1fr_2fr] 940:grid-cols-[3fr_4fr] items-center justify-items-center'>
+      <div className='flex justify-center'>
         <img src='./mikhail.jpg' alt='' className='rounded-lg' />
-        <div className='flex ssm:text-base text-sm md:text-base items-center text-center flex-col gap-5 leading-6 tracking-wider'>
-          <p>
-            Михаил Милютин – художник, создатель драгоценностей, один из ведущих
-            ювелиров современной России. В студии Михаила Милютина создаются
-            драгоценности для массовой продажи и уникальные произведения в
-            единственном экземпляре. Украшения для мужчин и женщин и статусные
-            памятные сувениры: ручки с драгоценным декором, печати и медали.
-            Основные темы творчества это имперская атрибутика, мотивы живой
-            природы, литературные сюжеты.
-          </p>
-          <Separator className='dark' />
-          <p>
-            Уникальные коллекции украшений посвящены архитектуре Северной
-            столицы и сказке «Алиса в Стране чудес». Художественные идеи
-            воплощаются в жизнь с помощью драгоценных металлов и минералов.
-            Основным материалом в работах Милютина зачастую выступает белое
-            золото. Фавориты Михаила среди камней для вставок - сапфиры, опалы и
-            бриллианты.
-          </p>
-          <Separator className='dark' />
-          <p>
-            Произведения Михаила Милютина – синтез ювелирного мастерства и
-            художественной фантазии. Из драгоценного сырья он создает осязаемые
-            воплощения власти, величия и восхищения природой и человеческим
-            творчеством.
-          </p>
-        </div>
       </div>
     </div>
   )

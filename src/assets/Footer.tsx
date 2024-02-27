@@ -1,16 +1,17 @@
-import { CopyrightOutlined } from '@ant-design/icons'
-import { Link } from 'react-router-dom'
+import ContactsButton from './ContactsButton'
+import { Button } from '@/components/ui/button'
+import { PersonIcon } from '@radix-ui/react-icons'
 
 export default function Footer() {
   return (
-    <div className='bg-zinc-950 py-[24px] px-[50px] flex gap-16 items-center justify-between text-neutral-600 tracking-wide'>
-      <Link to='/политика-конфиденциальности' className='hover:text-white'>
-        Сайт использует файлы cookie
-      </Link>
-      <div className='flex gap-2 items-center'>
-        <CopyrightOutlined />
-        2024 Mikhail Milyutin
-      </div>
+    <div className='bg-zinc-950 py-[24px] md:px-[50px] mt-10 px-[30px] flex gap-6 items-center justify-between tracking-wide'>
+      <div>Посещение только по предварительной записи</div>
+      <ContactsButton>
+        <Button variant='ghost' className='lg:text-lg md:text-md text-sm dark'>
+          <PersonIcon className='ssm:mr-2 lg:w-6 md:w-5 w-4 lg:h-6 md:h-5 h-4 ' />
+          <div className='ssm:block hidden'>Контакты</div>
+        </Button>
+      </ContactsButton>
     </div>
   )
 }

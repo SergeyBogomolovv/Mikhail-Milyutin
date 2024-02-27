@@ -7,15 +7,12 @@ const CarouselMain: React.FC = () => {
   return (
     <Carousel autoplay autoplaySpeed={5000}>
       <Link to='/Жемчуг'>
-        <AspectRatio ratio={16 / 9}>
-          <img src='./banner1.png' alt='' />
+        <AspectRatio ratio={16 / 6.2}>
+          <img src='./banner.png' alt='' className='w-full' />
         </AspectRatio>
       </Link>
-      <AspectRatio ratio={16 / 9}>
-        <img src='./2911395.jpg' alt='' />
-      </AspectRatio>
-      <AspectRatio ratio={16 / 9}>
-        <img src='./1.jpeg' alt='' />
+      <AspectRatio ratio={16 / 6.2}>
+        <img src='./1.jpeg' alt='' className='w-full' />
       </AspectRatio>
     </Carousel>
   )

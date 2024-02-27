@@ -120,6 +120,12 @@ const ContactsButton: FC<Props> = ({ children }) => {
               ул. Орджоникидзе, д.11 стр.3
             </Button>
           </a>
+          <div className='flex flex-col gap-6 col-span-1 940:col-span-4 md:col-span-3 ssm:col-span-3'>
+            <Separator />
+            <div className='text-center'>
+              Посещение только по предварительной записи
+            </div>
+          </div>
         </div>
       </SheetContent>
     </Sheet>
