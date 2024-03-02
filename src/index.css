@@ -71,13 +71,19 @@
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground text-white bg-zinc-900 font-SentaSans leading-tight;
+    @apply bg-background text-foreground text-white bg-zinc-900 font-poiret tracking-widest leading-tight;
   }
 }
 @font-face {
   font-family: 'SentaSans';
   src: local('SentaSans'),
     url('./fonts/SentaSans_Regular.otf') format('truetype');
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'ComfortAa';
+  src: local('ComfortAa'),
+    url('./fonts/Comfortaa-VariableFont_wght.ttf') format('truetype');
   font-weight: normal;
 }
 @font-face {

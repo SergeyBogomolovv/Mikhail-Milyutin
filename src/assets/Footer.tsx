@@ -12,8 +12,8 @@ export default function Footer() {
       </div>
       <motion.div whileHover={{ scale: 1.1 }}>
         <ContactsButton>
-          <Button className='lg:text-lg md:text-md text-sm dark rounded-full h-12 w-12 p-3'>
-            <PersonIcon className='w-full h-full' />
+          <Button className='lg:text-lg md:text-md text-sm dark rounded-full h-12 w-12 p-3 bg-lightgray'>
+            <PersonIcon className='h-full w-full' />
           </Button>
         </ContactsButton>
       </motion.div>

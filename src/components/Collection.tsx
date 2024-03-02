@@ -12,9 +12,7 @@ export default function Collection({ collection }: Props) {
     <Link to={collection.title} className='flex flex-col items-center gap-6'>
       <motion.img whileHover={{ scale: 1.03 }} src={collection.image} alt='' />
       <Separator className='md:block hidden' />
-      <div className='text-xl text-[#b0b0b0] hover:text-white'>
-        {collection.title}
-      </div>
+      <div className='text-xl text-white'>{collection.title}</div>
       <Separator className='md:hidden block' />
     </Link>
   )

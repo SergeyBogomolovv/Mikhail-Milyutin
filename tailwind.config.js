@@ -33,9 +33,11 @@ module.exports = {
         BrotherTime: 'BrotherTime',
         velomiavanora: 'velomiavanora',
         monsterrat: 'Monsterrat',
-        oswald: 'Oswald',
+        poiret: 'Poiret One',
+        comfort: 'ComfortAa',
       },
       colors: {
+        lightgray: '#b0b0b0',
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',

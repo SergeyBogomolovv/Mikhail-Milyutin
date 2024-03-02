@@ -31,7 +31,6 @@ export default function CollectionPage({ cards, title, content }: Props) {
           ))}
         </Image.PreviewGroup>
       </div>
-
       <HomeButton />
     </div>
   )

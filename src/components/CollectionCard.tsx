@@ -4,6 +4,7 @@ import { Separator } from './ui/separator'
 interface Props {
   card: ICard
 }
+
 export default function CollectionCard({ card }: Props) {
   return (
     <div className='flex flex-col gap-5 items-center'>
@@ -11,8 +12,11 @@ export default function CollectionCard({ card }: Props) {
         fallback='./fallback.png'
         src={card.src}
         alt=''
-        className='rounded-lg object-cover'
+        width={'100%'}
+        height={'100%'}
+        className='object-cover rounded-lg w-full h-full aspect-auto'
       />
+
       {card.title && (
         <>
           <Separator className='dark' />
