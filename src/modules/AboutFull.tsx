@@ -6,7 +6,7 @@ export default function AboutFull() {
       </h1>
       <div className='grid grid-cols-[3fr_5fr] gap-12 mx-auto'>
         <img src='./mikhail.jpg' alt='' className='rounded-lg m-auto' />
-        <div className='flex flex-col gap-3 items-center text-[#b0b0b0] text-sm lg:text-lg font-poiret tracking-wider text-center'>
+        <div className='flex flex-col gap-3 items-center text-lightgray font-monsterrat text-sm lg:text-base tracking-wider text-center'>
           <p>
             Художник, создатель драгоценностей. Его работы становятся подарками
             сильным мира сего, а сам мастер считается одним из ведущих ювелиров
