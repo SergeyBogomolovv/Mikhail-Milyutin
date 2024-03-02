@@ -1,17 +1,22 @@
 import ContactsButton from './ContactsButton'
 import { Button } from '@/components/ui/button'
 import { PersonIcon } from '@radix-ui/react-icons'
+import { motion } from 'framer-motion'
 
 export default function Footer() {
   return (
-    <div className='bg-zinc-950 py-[24px] md:px-[50px] mt-10 px-[30px] flex gap-6 items-center justify-between tracking-wide'>
-      <div>Посещение только по предварительной записи</div>
-      <ContactsButton>
-        <Button variant='ghost' className='lg:text-lg md:text-md text-sm dark'>
-          <PersonIcon className='ssm:mr-2 lg:w-6 md:w-5 w-4 lg:h-6 md:h-5 h-4 ' />
-          <div className='ssm:block hidden'>Контакты</div>
-        </Button>
-      </ContactsButton>
+    <div className='bg-zinc-950 py-[24px] md:px-[300px] mt-10 px-[30px] flex  items-center justify-center gap-10 tracking-wide'>
+      <div className='lg:text-xl md:text-md text-sm flex flex-col items-start'>
+        <p>Посещение только по </p>
+        <p>предварительной записи</p>
+      </div>
+      <motion.div whileHover={{ scale: 1.1 }}>
+        <ContactsButton>
+          <Button className='lg:text-lg md:text-md text-sm dark rounded-full h-12 w-12 p-3'>
+            <PersonIcon className='w-full h-full' />
+          </Button>
+        </ContactsButton>
+      </motion.div>
     </div>
   )
 }

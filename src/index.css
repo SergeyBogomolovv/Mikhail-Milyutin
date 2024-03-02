@@ -126,3 +126,10 @@
     url('./fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
   font-weight: normal;
 }
+
+@font-face {
+  font-family: 'Oswald';
+  src: local('Oswald'),
+    url('./fonts/Oswald-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+}

@@ -8,7 +8,7 @@ import { useRef } from 'react'
 export default function Header() {
   const ref: React.Ref<HTMLButtonElement> = useRef(null)
   return (
-    <div className='bg-zinc-950 xl:py-[12px] lg:py-[10px] py-[8px] xl:px-[50px] lg:px-[40px] md:px-[35px] px-[20px] flex gap-4 items-center justify-between'>
+    <div className='bg-zinc-950 xl:py-[24px] lg:py-[20px] py-[20px] xl:px-[50px] lg:px-[40px] md:px-[35px] px-[20px] flex gap-4 items-center justify-between'>
       <Link
         to='/'
         className='font-Fluence font-thin tracking-widest lg:text-4xl md:text-3xl ssm:text-2xl text-xl leading-tight'

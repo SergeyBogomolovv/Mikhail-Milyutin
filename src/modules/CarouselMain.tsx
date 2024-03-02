@@ -4,8 +4,7 @@ import { AspectRatio } from '@/components/ui/aspect-ratio'
 import { Link } from 'react-router-dom'
 
 const CarouselMain: React.FC = () => {
-  const ration = window.innerWidth > 900 ? 16 / 6.2 : 16 / 9
-
+  const ration = window.innerWidth > 900 ? 16 / 6 : 16 / 9
   return (
     <Carousel autoplay autoplaySpeed={5000}>
       <Link to='/Жемчуг'>

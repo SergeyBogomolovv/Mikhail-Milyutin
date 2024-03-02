@@ -4,6 +4,7 @@ import Main from './pages/Main'
 import CollectionPage from './pages/CollectionPage'
 import { collections } from './collections'
 import PrivacyPolicy from './pages/PrivacyPolicy'
+import AboutPage from './pages/AboutPage'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Route path='/' element={<Layout />}>
         <Route path='политика-конфиденциальности' element={<PrivacyPolicy />} />
         <Route index element={<Main />} />
+        <Route path='/about' element={<AboutPage />} />
         {collections.map((collection) => (
           <Route
             path={collection.title}

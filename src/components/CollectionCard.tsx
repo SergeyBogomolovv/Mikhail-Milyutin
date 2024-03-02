@@ -11,7 +11,7 @@ export default function CollectionCard({ card }: Props) {
         fallback='./fallback.png'
         src={card.src}
         alt=''
-        className='rounded-lg'
+        className='rounded-lg object-cover'
       />
       {card.title && (
         <>

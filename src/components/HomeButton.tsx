@@ -4,9 +4,12 @@ import { HomeIcon } from '@radix-ui/react-icons'
 
 export default function HomeButton() {
   return (
-    <div className='flex justify-center my-10'>
+    <div className='flex justify-center mt-20'>
       <Link to='/'>
-        <Button variant='link' className='dark text-xl tracking-wide'>
+        <Button
+          variant='link'
+          className='dark text-xl text-[#b0b0b0] hover:text-white tracking-wide'
+        >
           <HomeIcon className='mr-2 w-6 h-6' />
           На главную
         </Button>

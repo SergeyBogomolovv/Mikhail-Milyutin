@@ -33,6 +33,7 @@ module.exports = {
         BrotherTime: 'BrotherTime',
         velomiavanora: 'velomiavanora',
         monsterrat: 'Monsterrat',
+        oswald: 'Oswald',
       },
       colors: {
         border: 'hsl(var(--border))',
