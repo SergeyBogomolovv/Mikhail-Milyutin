@@ -9,25 +9,21 @@ interface Achievments {
 export default function Achievments() {
   return (
     <div>
-      <h1 className='ssm:text-4xl text-3xl text-center mb-5 mt-10 tracking-wide'>
-        Достижения
-      </h1>
-      <Separator className='my-5 dark hidden sm:block' />
       <div className='lg:flex grid md:grid-cols-3 sm:mt-0 mt-8 sm:grid-cols-2 gap-12 items-center justify-center justify-items-center leading-6 tracking-wider mb-10'>
         <Image.PreviewGroup>
-          <div className='grid gap-4 text-center'>
+          <div className='grid gap-4 text-center text-white'>
             <Image
               fallback='./fallback.png'
               src='./achievments/1.jpeg'
               alt=''
             />
             <Separator />
-            <div className='xl:text-lg text-sm'>
+            <div className='xl:text-lg text-sm '>
               В 2022 году стал призером выставки «Гохран России», в номинации
               «Использование нетрадиционных материалов в авторских работах»
             </div>
           </div>
-          <div className='grid gap-4 text-center'>
+          <div className='grid gap-4 text-center text-white'>
             <Image fallback='./fallback.png' src='./achievments/2.jpg' alt='' />
             <Separator />
             <div className='xl:text-lg text-sm'>
@@ -35,7 +31,7 @@ export default function Achievments() {
               «Лучшее ювелирное искусство»
             </div>
           </div>
-          <div className='grid gap-4 text-center'>
+          <div className='grid gap-4 text-center text-white'>
             <Image fallback='./fallback.png' src='./achievments/4.jpg' alt='' />
             <Separator />
             <div className='xl:text-lg text-sm'>
@@ -43,7 +39,7 @@ export default function Achievments() {
               «Ювелирные техники: традиции и мастерство»
             </div>
           </div>
-          <div className='grid gap-4 text-center'>
+          <div className='grid gap-4 text-center text-white'>
             <Image fallback='./fallback.png' src='./achievments/3.jpg' alt='' />
             <Separator />
             <div className='xl:text-lg text-sm'>
