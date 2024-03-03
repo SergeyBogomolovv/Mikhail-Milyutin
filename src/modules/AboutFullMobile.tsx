@@ -1,17 +1,21 @@
-export default function AboutFull() {
+export default function AboutFullMobile() {
   return (
-    <div className='flex flex-col gap-6'>
-      <h1 className='sm:text-5xl ssm:text-4xl text-center text-3xl mb-4'>
+    <div className='flex flex-col'>
+      <h1 className='sm:text-5xl ssm:text-4xl text-center text-3xl my-4'>
         Об авторе
       </h1>
-      <div className='grid grid-cols-2 mx-auto'>
-        <img src='./mikhail.jpg' alt='' className='rounded-lg m-auto' />
-        <div className='flex flex-col gap-3 items-center text-neutral-300  text-sm lg:text-lg tracking-wider text-center'>
-          <p>
-            Художник, создатель драгоценностей. Его работы становятся подарками
-            сильным мира сего, а сам мастер считается одним из ведущих ювелиров
-            современной России.
-          </p>
+      <div className='flex flex-col mx-auto'>
+        <p className='text-neutral-300 text-sm tracking-wider text-center'>
+          Художник, создатель драгоценностей. Его работы становятся подарками
+          сильным мира сего, а сам мастер считается одним из ведущих ювелиров
+          современной России.
+        </p>
+        <img
+          src='./mikhail.jpg'
+          alt=''
+          className='rounded-lg my-6 w-8/12 mx-auto'
+        />
+        <div className='flex flex-col gap-3 items-center text-neutral-300 text-sm tracking-wider text-center'>
           <p>
             В мастерской Михаила Милютина принимаются заказы, на изготовление
             предметов ювелирного искусства, по индивидуальным проектам клиента -

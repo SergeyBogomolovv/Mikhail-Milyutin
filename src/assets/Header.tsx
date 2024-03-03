@@ -11,7 +11,7 @@ export default function Header() {
     <div className='bg-zinc-950 xl:py-[24px] lg:py-[20px] py-[20px] xl:px-[50px] lg:px-[40px] md:px-[35px] px-[20px] flex gap-4 items-center justify-between'>
       <Link
         to='/'
-        className='font-Fluence font-thin tracking-widest lg:text-4xl md:text-3xl ssm:text-2xl text-xl leading-tight'
+        className='font-Fluence font-thin tracking-widest lg:text-4xl md:text-3xl ssm:text-2xl text-2xl leading-tight'
       >
         Mikhail Milyutin
       </Link>
