@@ -14,15 +14,15 @@ export default function Header() {
         to='/'
         className='font-Fluence font-thin tracking-widest lg:text-4xl md:text-3xl ssm:text-2xl text-2xl leading-tight'
       >
-        <Logo className='xl:w-60 lg:w-52 md:w-48 w-44' />
+        <Logo className='xl:w-72 lg:w-60 md:w-56 w-48' />
       </Link>
       <div className='flex gap-2'>
         <ContactsButton>
           <Button
             variant='ghost'
-            className='lg:text-lg md:text-md text-sm dark flex'
+            className='lg:text-lg md:text-md text-sm dark flex pb-0 sm:pb-[8px]'
           >
-            <PersonIcon className='ssm:mr-2 lg:w-6 md:w-5 w-4 lg:h-6 md:h-5 h-4 ' />
+            <PersonIcon className='ssm:mr-2 lg:w-6 md:w-5 w-4 lg:h-6 md:h-5 h-4' />
             <div className='hidden ssm:block'>Контакты</div>
           </Button>
         </ContactsButton>
