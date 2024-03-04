@@ -1,7 +1,7 @@
 export default function AboutFull() {
   return (
     <div className='flex flex-col gap-6'>
-      <h1 className='sm:text-5xl ssm:text-4xl text-center text-3xl mb-4'>
+      <h1 className='sm:text-4xl ssm:text-3xl text-center text-2xl mb-4'>
         Об авторе
       </h1>
       <div className='grid grid-cols-2 mx-auto'>

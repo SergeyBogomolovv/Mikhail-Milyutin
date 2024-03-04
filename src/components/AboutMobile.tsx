@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 export default function AboutMobile() {
   return (
     <div className='grid gap-6 items-center justify-items-center'>
-      <h1 className='md:hidden sm:text-5xl ssm:text-4xl text-center text-3xl sm:my-10 tracking-wide'>
+      <h1 className='md:hidden sm:text-4xl ssm:text-3xl text-center text-2xl sm:my-10 tracking-wide'>
         Об авторе
       </h1>
       <img
