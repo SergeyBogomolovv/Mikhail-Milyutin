@@ -14,9 +14,9 @@ export default function CollectionCard({ card }: Props) {
         alt=''
         width={'100%'}
         height={'100%'}
+        preview={{ src: card.fallback ? card.fallback : card.src }}
         className='object-cover rounded-lg w-full h-full aspect-auto'
       />
-
       {card.title && (
         <>
           <Line className='fill-[#8D8D8E] stroke-[#8D8D8E] w-full' />
