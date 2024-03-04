@@ -1,6 +1,6 @@
 import { ICard } from '@/models/Card'
 import { Image } from 'antd'
-import { Separator } from './ui/separator'
+import Line from '@/assets/Line'
 interface Props {
   card: ICard
 }
@@ -19,7 +19,7 @@ export default function CollectionCard({ card }: Props) {
 
       {card.title && (
         <>
-          <Separator className='dark' />
+          <Line className='fill-[#8D8D8E] stroke-[#8D8D8E] w-full' />
           <div className='text-lg'>{card.title}</div>
         </>
       )}

@@ -28,16 +28,15 @@ export default function AboutMini() {
             </h1>
             <div className='flex flex-col gap-2 items-center text-[#b0b0b0] text-sm lg:text-lg font-poiret tracking-wider'>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut,
-                sit nobis. Voluptatem eos ullam eaque esse beatae labore cum
-                debitis, aliquid sit molestiae ex accusamus ipsam veniam quasi
-                tempore ipsum?
+                Художник, создатель драгоценностей. Его работы становятся
+                подарками сильным мира сего, а сам мастер считается одним из
+                ведущих ювелиров современной России.
               </p>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut,
-                sit nobis. Voluptatem eos ullam eaque esse beatae labore cum
-                debitis, aliquid sit molestiae ex accusamus ipsam veniam quasi
-                tempore ipsum?
+                Произведения Михаила Милютина – синтез ювелирного мастерства и
+                художественной фантазии. Награды и подарки, изготовленные
+                Милютиным, становятся атрибутами высокого общественного
+                положения и подтверждением личных заслуг своих обладателей.
               </p>
               <Link to='/about' className=''>
                 <Button variant='link' className='mx-auto text-base text-white'>

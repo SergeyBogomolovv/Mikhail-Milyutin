@@ -15,6 +15,7 @@ export default function CollectionPage({ cards, title, content }: Props) {
       <h1 className='sm:text-5xl ssm:text-4xl text-3xl text-center lg:my-10 md:my-8 my-5 tracking-wide'>
         {title}
       </h1>
+
       <Separator className='mb-5 dark' />
       {content && (
         <>

@@ -15,8 +15,9 @@ export default function AboutMobile() {
       />
       <div>
         <div className='text-[#b0b0b0] text-center text-sm md:text-lg font-poiret tracking-wider'>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis,
-          tempora nihil accusantium nam libero enim ad quibusdam
+          Художник, создатель драгоценностей. Его работы становятся подарками
+          сильным мира сего, а сам мастер считается одним из ведущих ювелиров
+          современной России.
         </div>
       </div>
       <Link to='/about' className=''>
