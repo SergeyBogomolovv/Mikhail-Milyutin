@@ -1,7 +1,6 @@
 import React from 'react'
 import { Carousel } from 'antd'
 import { Link } from 'react-router-dom'
-// alicafon
 const CarouselMain: React.FC = () => {
   return (
     <Carousel autoplay autoplaySpeed={3000}>
@@ -10,6 +9,15 @@ const CarouselMain: React.FC = () => {
       </Link>
       <Link to='/Жемчуг'>
         <img src='/alicafon.jpg' alt='' className='w-full object-cover' />
+      </Link>
+      <Link to='/Жемчуг'>
+        <img src='/alicafon2.jpg' alt='' className='w-full object-cover' />
+      </Link>
+      <Link to='/Жемчуг'>
+        <img src='/alicafon3.jpg' alt='' className='w-full object-cover' />
+      </Link>
+      <Link to='/Жемчуг'>
+        <img src='/alicafon4.jpg' alt='' className='w-full object-cover' />
       </Link>
     </Carousel>
   )
