@@ -11,13 +11,13 @@ const CarouselMain: React.FC = () => {
         <img src='/alicafon.jpg' alt='' className='w-full object-cover' />
       </Link>
       <Link to='/Жемчуг'>
-        <img src='/alicafon2.jpg' alt='' className='w-full object-cover' />
+        <img src='/alicafon2.JPG' alt='' className='w-full object-cover' />
       </Link>
       <Link to='/Жемчуг'>
-        <img src='/alicafon3.jpg' alt='' className='w-full object-cover' />
+        <img src='/alicafon3.JPG' alt='' className='w-full object-cover' />
       </Link>
       <Link to='/Жемчуг'>
-        <img src='/alicafon4.jpg' alt='' className='w-full object-cover' />
+        <img src='/alicafon4.JPG' alt='' className='w-full object-cover' />
       </Link>
     </Carousel>
   )
