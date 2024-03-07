@@ -10,7 +10,7 @@ export default function AboutPage() {
     <div className='container lg:my-20 md:my-14 sm:my-10 ssm:my-8 my-6'>
       {window.innerWidth > 900 ? <AboutFull /> : <AboutFullMobile />}
       <Separator className='dark my-10' />
-      <Tabs defaultValue='достижения' className='container dark'>
+      <Tabs defaultValue='достижения' className=' dark'>
         <TabsList className='w-full bg-transparent md:mb-10 mb-5'>
           <TabsTrigger
             className='w-full text-xl tracking-widest data-[state=active]:bg-transparent data-[state=active]:ring-white ring-2 ring-transparent'
