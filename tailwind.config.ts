@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+export default {
   darkMode: ['class'],
   content: [
     './index.html',
@@ -24,17 +24,7 @@ module.exports = {
         940: '940px',
       },
       fontFamily: {
-        SentaSans: 'SentaSans',
-        SentaSansBold: 'SentaSans-Bold',
-        SentaSansLight: 'SentaSans-Light',
-        Gilliant: 'Gilliant',
-        Golden: 'Golden',
-        Fluence: 'Fluence',
-        BrotherTime: 'BrotherTime',
-        velomiavanora: 'velomiavanora',
-        monsterrat: 'Monsterrat',
         poiret: 'Poiret One',
-        comfort: 'ComfortAa',
       },
       colors: {
         lightgray: '#b0b0b0',
