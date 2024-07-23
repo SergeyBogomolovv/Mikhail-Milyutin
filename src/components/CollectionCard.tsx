@@ -12,8 +12,9 @@ export default function CollectionCard({ card }: Props) {
         fallback='./fallback.png'
         src={card.src}
         alt=''
-        width={'100%'}
-        height={'100%'}
+        width={500}
+        height={500}
+        loading='lazy'
         preview={{ src: card.fallback ? card.fallback : card.src }}
         className='object-cover rounded-lg w-full h-full aspect-auto'
       />
