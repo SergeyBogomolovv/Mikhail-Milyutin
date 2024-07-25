@@ -13,6 +13,8 @@ export default function CollectionCard({ card }: Props) {
         src={card.src}
         alt=""
         loading="lazy"
+        width={"100%"}
+        height={"100%"}
         preview={{ src: card.fallback ? card.fallback : card.src }}
         className="object-cover rounded-lg w-full h-full aspect-auto"
       />

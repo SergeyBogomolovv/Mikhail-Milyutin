@@ -1,45 +1,46 @@
 import React from "react";
-import { Carousel, Image } from "antd";
+import { Carousel } from "antd";
 import { Link } from "react-router-dom";
+
 const CarouselMain: React.FC = () => {
   return (
     <Carousel autoplay autoplaySpeed={3000}>
-      <Link to="/Жемчуг">
+      <Link to="/Алиса в стране чудес">
         <img
           loading="lazy"
-          src="/alicafon1.jpg"
+          src="https://storage.yandexcloud.net/mikhail-milutin/slider/alicafon1.jpg"
           alt=""
           className="w-full object-cover"
         />
       </Link>
-      <Link to="/Жемчуг">
+      <Link to="/Алиса в стране чудес">
         <img
           loading="lazy"
-          src="/alicafon.jpg"
+          src="https://storage.yandexcloud.net/mikhail-milutin/slider/alicafon.jpg"
           alt=""
           className="w-full object-cover"
         />
       </Link>
-      <Link to="/Жемчуг">
+      <Link to="/Алиса в стране чудес">
         <img
           loading="lazy"
-          src="/alicafon2.JPG"
+          src="https://storage.yandexcloud.net/mikhail-milutin/slider/alicafon2.JPG"
           alt=""
           className="w-full object-cover"
         />
       </Link>
-      <Link to="/Жемчуг">
+      <Link to="/Алиса в стране чудес">
         <img
           loading="lazy"
-          src="/alicafon3.JPG"
+          src="https://storage.yandexcloud.net/mikhail-milutin/slider/alicafon3.JPG"
           alt=""
           className="w-full object-cover"
         />
       </Link>
-      <Link to="/Жемчуг">
-        <Image
+      <Link to="/Алиса в стране чудес">
+        <img
           loading="lazy"
-          src="/alicafon4.JPG"
+          src="https://storage.yandexcloud.net/mikhail-milutin/slider/alicafon4.JPG"
           alt=""
           className="w-full object-cover"
         />

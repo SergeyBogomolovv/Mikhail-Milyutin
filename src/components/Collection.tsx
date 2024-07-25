@@ -15,6 +15,7 @@ export default function Collection({ collection }: Props) {
         whileHover={{ scale: 1.03 }}
         src={collection.image}
         alt=""
+        className="aspect-square object-cover"
       />
       <Line className="md:block hidden w-full fill-[#8D8D8E] stroke-[#8D8D8E]" />
       <div className="text-xl text-white">{collection.title}</div>
