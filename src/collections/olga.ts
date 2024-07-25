@@ -5,10 +5,10 @@ export const olga: ICard[] = [
     src: "https://storage.yandexcloud.net/mikhail-milutin/olga/2024-07-25 09.17.26.jpg",
   },
   {
-    src: "https://storage.yandexcloud.net/mikhail-milutin/olga/2024-07-25 09.17.32.jpg",
+    src: "https://storage.yandexcloud.net/mikhail-milutin/olga/2024-07-25 09.17.36.jpg",
   },
   {
-    src: "https://storage.yandexcloud.net/mikhail-milutin/olga/2024-07-25 09.17.36.jpg",
+    src: "https://storage.yandexcloud.net/mikhail-milutin/olga/2024-07-25 09.17.32.jpg",
   },
   {
     src: "https://storage.yandexcloud.net/mikhail-milutin/olga/2024-07-25 09.17.40.jpg",
