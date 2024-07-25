@@ -1,6 +1,6 @@
 export default function AboutFullMobile() {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col 940:hidden">
       <h1 className="sm:text-5xl ssm:text-4xl text-center text-3xl my-4">
         Об авторе
       </h1>

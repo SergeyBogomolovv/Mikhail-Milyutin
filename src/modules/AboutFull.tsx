@@ -1,12 +1,12 @@
 export default function AboutFull() {
   return (
-    <div className='flex flex-col gap-6'>
-      <h1 className='sm:text-4xl ssm:text-3xl text-center text-2xl mb-4'>
+    <div className="flex-col gap-6 940:flex hidden">
+      <h1 className="sm:text-4xl ssm:text-3xl text-center text-2xl mb-4">
         Об авторе
       </h1>
-      <div className='grid grid-cols-2 mx-auto'>
-        <img src='./mikhail.jpg' alt='' className='rounded-lg m-auto' />
-        <div className='flex flex-col gap-3 items-center text-neutral-300  text-sm lg:text-lg tracking-wider text-center'>
+      <div className="grid grid-cols-2 mx-auto">
+        <img src="./mikhail.jpg" alt="" className="rounded-lg m-auto" />
+        <div className="flex flex-col gap-3 items-center text-neutral-300  text-sm lg:text-lg tracking-wider text-center">
           <p>
             Художник, создатель драгоценностей. Его работы становятся подарками
             сильным мира сего, а сам мастер считается одним из ведущих ювелиров
@@ -31,5 +31,5 @@ export default function AboutFull() {
         </div>
       </div>
     </div>
-  )
+  );
 }
