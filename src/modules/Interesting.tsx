@@ -1,14 +1,14 @@
 export default function Interesting() {
   return (
     <div className="lg:container">
-      <h1 className="text-3xl text-center text-white">Аметист</h1>
-      <div className="my-10 flex flex-col items-center gap-2 justify-center text-center md:text-lg text-lightgray leading-loose tracking-widest">
-        <p>
-          В данном разделе представлено несколько статей нашего дорогого друга и
-          уважаемого коллеги Акима Суареса. Аким не только ювелир, но и
-          профессиональный геолог с огромным багажом знаний о камнях и
-          минералах. Частичкой этих знаний он готов поделиться с нами.
-        </p>
+      <p className="text-center">
+        В данном разделе представлено несколько статей нашего дорогого друга и
+        уважаемого коллеги Акима Суареса. Аким не только ювелир, но и
+        профессиональный геолог с огромным багажом знаний о камнях и минералах.
+        Частичкой этих знаний он готов поделиться с нами.
+      </p>
+      <h1 className="my-8 text-3xl text-center text-white">Аметист</h1>
+      <div className="flex flex-col items-center gap-2 justify-center text-center md:text-lg text-lightgray leading-loose tracking-widest">
         <p>
           Красивая легенда об аметисте излагается во французской поэзии. Бог
           Вакх, обиженный пренебрежением к своим страданиям, решил отомстить за
