@@ -1,8 +1,14 @@
 export default function Interesting() {
   return (
-    <div className='lg:container'>
-      <h1 className='text-3xl text-center text-white'>Аметист</h1>
-      <div className='my-10 flex flex-col items-center gap-2 justify-center text-center md:text-lg text-lightgray leading-loose tracking-widest'>
+    <div className="lg:container">
+      <h1 className="text-3xl text-center text-white">Аметист</h1>
+      <div className="my-10 flex flex-col items-center gap-2 justify-center text-center md:text-lg text-lightgray leading-loose tracking-widest">
+        <p>
+          В данном разделе представлено несколько статей нашего дорогого друга и
+          уважаемого коллеги Акима Суареса. Аким не только ювелир, но и
+          профессиональный геолог с огромным багажом знаний о камнях и
+          минералах. Частичкой этих знаний он готов поделиться с нами.
+        </p>
         <p>
           Красивая легенда об аметисте излагается во французской поэзии. Бог
           Вакх, обиженный пренебрежением к своим страданиям, решил отомстить за
@@ -16,9 +22,9 @@ export default function Interesting() {
           оттенок.
         </p>
         <img
-          src='/ametist3.jpg'
-          alt=''
-          className='my-5 rounded-lg 940:w-8/12'
+          src="/ametist3.jpg"
+          alt=""
+          className="my-5 rounded-lg 940:w-8/12"
         />
         <p>
           Аметист название от греческого "αμέθυστος" (amethystos) - буквально
@@ -49,9 +55,9 @@ export default function Interesting() {
           Руанде.
         </p>
         <img
-          src='/ametist4.jpg'
-          alt=''
-          className='my-5 rounded-lg 940:w-8/12'
+          src="/ametist4.jpg"
+          alt=""
+          className="my-5 rounded-lg 940:w-8/12"
         />
 
         <p>
@@ -86,9 +92,9 @@ export default function Interesting() {
           не природный празиолит, а термообработанный аметист.
         </p>
       </div>
-      <div className='text-lg md:text-left text-center'>
+      <div className="text-lg md:text-left text-center">
         Aвтор статьи: Суарес Аким
       </div>
     </div>
-  )
+  );
 }
