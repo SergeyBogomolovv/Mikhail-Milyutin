@@ -1,6 +1,7 @@
 import { ICard } from "@/models/Card";
 import { Image } from "antd";
 import Line from "@/assets/Line";
+
 interface Props {
   card: ICard;
 }
@@ -9,13 +10,12 @@ export default function CollectionCard({ card }: Props) {
   return (
     <div className="flex flex-col gap-5 items-center">
       <Image
-        fallback="./fallback.png"
         src={card.src}
         alt=""
         loading="lazy"
         width={"100%"}
         height={"100%"}
-        preview={{ src: card.fallback ? card.fallback : card.src }}
+        preview={{ src: card.src }}
         className="object-cover rounded-lg w-full h-full aspect-auto"
       />
       {card.title && (
