@@ -25,25 +25,17 @@ export default function AboutMini() {
           <h1 className="sm:text-4xl ssm:text-3xl text-center text-2xl mb-4">
             Об авторе
           </h1>
-          <div className="flex flex-col gap-2 items-center text-[#b0b0b0] text-sm lg:text-lg font-poiret tracking-wider">
-            <p>
-              Художник, создатель драгоценностей. Его работы становятся
-              подарками сильным мира сего, а сам мастер считается одним из
-              ведущих ювелиров современной России.
-            </p>
-            <p>
-              Произведения Михаила Милютина – синтез ювелирного мастерства и
-              художественной фантазии. Награды и подарки, изготовленные
-              Милютиным, становятся атрибутами высокого общественного положения
-              и подтверждением личных заслуг своих обладателей.
-            </p>
-            <Link to="/about" className="">
-              <Button variant="link" className="mx-auto text-base text-white">
+          <div className="flex flex-col gap-2 items-center text-center text-[#b0b0b0] text-lg lg:text-xl font-poiret tracking-wider">
+            Художник, создатель драгоценностей. Произведения Михаила Милютина –
+            синтез ювелирного мастерства и художественной фантазии.
+            <Link to="/about" className="mx-auto">
+              <Button variant="link" className="text-base text-white">
                 Подробнее
                 <ExternalLinkIcon className="ml-2" />
               </Button>
             </Link>
           </div>
+          <div></div>
         </div>
       </div>
       <AboutMobile />
