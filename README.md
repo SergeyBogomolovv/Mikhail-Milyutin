@@ -30,7 +30,7 @@
 - 2 - Найти файл CarouselMain.tsx
 - 3 - В компонент Carousel добавить элемент по типу:
 
-`<Link to='/Жемчуг'> `
+`<Link to='/Жемчуг'>`
 Указывается путь к коллекции, этот элемент не обязателен, путь должен совпадать с названием коллекции
 `<AspectRatio ratio={16 / 9}>`
 `<img src='./banner1.png' alt='' /> указывается путь к картинке из папки public`
@@ -38,3 +38,8 @@
 `</Link>`
 
 ### Картинки добавляются в папку public, путь начинается с ./путь к картинке
+
+## Запуск через Docker
+
+- build `docker build -t mikhail-milyutin .`
+- run `docker run -d --name mikhail-milyutin -p 80:80 mikhail-milyutin`
