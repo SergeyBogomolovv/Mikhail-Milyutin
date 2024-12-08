@@ -10,10 +10,9 @@ import { Button } from "@/components/ui/button";
 import { EnvelopeClosedIcon } from "@radix-ui/react-icons";
 import { PhoneOutlined, WhatsAppOutlined } from "@ant-design/icons";
 import { Separator } from "@/components/ui/separator";
-import TelegramIcon from "@/icons/TelegramIcon";
-import VKIcon from "@/icons/VKIcon";
-import MapIcon from "@/icons/MapIcon";
-import PointIcon from "@/icons/PointIcon";
+import { FaTelegram, FaVk } from "react-icons/fa6";
+import { FaMap } from "react-icons/fa";
+import { FiMapPin } from "react-icons/fi";
 import { toast } from "sonner";
 
 interface Props {
@@ -84,7 +83,7 @@ const ContactsButton: FC<Props> = ({ children }) => {
                 variant="link"
                 className="dark flex gap-2 tracking-wider sm:text-md text-sm"
               >
-                <TelegramIcon />
+                <FaTelegram className="size-5" />
                 Телеграмм
               </Button>
             </a>
@@ -93,7 +92,7 @@ const ContactsButton: FC<Props> = ({ children }) => {
                 variant="link"
                 className="dark flex gap-2 tracking-wider sm:text-md text-sm"
               >
-                <VKIcon />
+                <FaVk className="size-5" />
                 ВКонтакте
               </Button>
             </a>
@@ -108,7 +107,7 @@ const ContactsButton: FC<Props> = ({ children }) => {
               variant="link"
               className="dark flex gap-2 tracking-wider sm:text-md text-sm"
             >
-              <MapIcon />
+              <FaMap className="size-5" />
               Галерея, 115419, Россия, г. Москва
             </Button>
 
@@ -116,7 +115,7 @@ const ContactsButton: FC<Props> = ({ children }) => {
               variant="link"
               className="dark flex gap-2 tracking-wider sm:text-md text-sm"
             >
-              <PointIcon />
+              <FiMapPin className="size-5" />
               ул. Орджоникидзе, д.11 стр.3
             </Button>
           </a>
