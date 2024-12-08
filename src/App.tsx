@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import Layout from "./assets/Layout";
+import Layout from "./components/Layout";
 import { collections } from "./collections";
 import { Suspense } from "react";
 import AboutPage from "./pages/about";

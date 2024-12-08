@@ -37,7 +37,7 @@ const ContactsButton: FC<Props> = ({ children }) => {
               className="dark flex gap-2 tracking-wider sm:text-md text-sm"
               onClick={async () => {
                 await navigator.clipboard.writeText("m-milutin@mail.ru");
-                toast("Скопировано в буфер обмена");
+                toast.success("Скопировано в буфер обмена");
               }}
             >
               <EnvelopeClosedIcon className="sm:w-5 w-4 h-4 sm:h-5" />
@@ -48,7 +48,7 @@ const ContactsButton: FC<Props> = ({ children }) => {
               className="dark flex gap-2 tracking-wider sm:text-md text-sm"
               onClick={async () => {
                 await navigator.clipboard.writeText("m-millutin@hotmail.com");
-                toast("Скопировано в буфер обмена");
+                toast.success("Скопировано в буфер обмена");
               }}
             >
               <EnvelopeClosedIcon className="sm:w-5 w-4 h-4 sm:h-5" />
@@ -69,7 +69,7 @@ const ContactsButton: FC<Props> = ({ children }) => {
               className="dark flex gap-2 tracking-wider sm:text-md text-sm"
               onClick={async () => {
                 await navigator.clipboard.writeText("+7 925 985 98-40");
-                toast("Скопировано в буфер обмена");
+                toast.success("Скопировано в буфер обмена");
               }}
             >
               <PhoneOutlined />
